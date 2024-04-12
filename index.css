@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 10px;
+  padding: 10px 30px;
+  background-color: burlywood;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  justify-content: start;
+  align-items: start;
+}
+
+.containerColumn {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: start;
+  align-items: start;
+}
+
+.containerHeading {
+  font-size: x-small;
+}
+.heightDetail,
+.weightDetail {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+}
+.Detail {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  background-color: bisque;
+}
+
+.center {
+  display: flex;
+  flex-direction: row; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 5px;
+  margin-right: 0px;
+  color: bisque;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.textDetails {
+  margin: 0%;
+  font-size: x-small;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="containerColumn" id="containerColumn">
+        <h1 class="containerHeading" id="contanerHeading">
+          Body Mass Index (BMI) Calculaor
+        </h1>
+        <h4 class="textDetails" id="textDetails">Your height (cm) :</h4>
+
+        <input
+          placeholder="Enter your height in cm"
+          value="180"
+          type="number"
+          class="heightDetail"
+          id="heightDetail"
+        />
+        <h4 class="textDetails" id="textDetails">Your weight (kg) :</h4>
+        <input
+          placeholder="Enter your weight in kg"
+          value="80"
+          type="number"
+          class="weightDetail"
+          id="weightDetail"
+        />
+        <div class="btn" id="btn">
+          <button class="btn" id="btn">Compute BMI</button>
+        </div>
+
+        <input disabled="number" class="Detail" id="Detail" />
+        <h4 class="textDetails" id="textDetails">
+          Weight Condition: <span id="weight-condition"></span>
+        </h4>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
+<!-- .container {
+  margin: 10px;
+  padding: 10px 30px;
+  background-color: burlywood;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.containerColumn {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+} -->
